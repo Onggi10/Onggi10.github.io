@@ -5,6 +5,7 @@ import profileImg from "@/assets/profile.jpeg";
 import DevportalImg from "@/assets/projects/Devportal BRI.png";
 import WeddingImg from "@/assets/projects/Wedding Invitation.png";
 import NeoProductionImg from "@/assets/projects/Neo Production.png";
+import DigitalSanjayaImg from "@/assets/projects/Digital Sanjaya.png";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -145,7 +146,8 @@ const projects: Project[] = [
       "Komponen reusable untuk maintenance & scalability jangka panjang",
     ],
     stack: ["Vue.js", "TypeScript", "JavaScript", "Tailwind CSS", "SEO", "Responsive Design"],
-    demo: "https://digital-sanjaya.vercel.app",
+    demo: "https://digitalsanjaya.com",
+    image: DigitalSanjayaImg,
     featured: true,
   },
 ];
